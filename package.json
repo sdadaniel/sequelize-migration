@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-migragion-test",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD\r # sequelize-migration\r =======\r # sequelize-migration\r >>>>>>> a96dbb6386cc1fe27491d9cc6fadcd673a4fcb51",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -e html,js server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdadaniel/sequelize-migration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdadaniel/sequelize-migration/issues"
+  },
+  "homepage": "https://github.com/sdadaniel/sequelize-migration#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.12",
+    "nunjucks": "^3.2.3",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0"
+  }
+}
